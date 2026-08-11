@@ -8,19 +8,19 @@ import './style.css';
 const FAILURE_ENDPOINT = 'https://api.encypher.com/api/v1/sdk-validation-failures';
 const SAMPLE_ASSETS = {
   signed: {
-    url: '/samples/signed-test.jpg',
+    url: './samples/signed-test.jpg',
     mime: 'image/jpeg',
     fileName: 'signed-photo.jpg',
     name: 'Signed photo',
   },
   changed: {
-    url: '/samples/changed-sample.jpg',
+    url: './samples/changed-sample.jpg',
     mime: 'image/jpeg',
     fileName: 'changed-photo.jpg',
     name: 'Changed photo',
   },
   unsigned: {
-    url: '/samples/unsigned-sample.svg',
+    url: './samples/unsigned-sample.svg',
     mime: 'image/svg+xml',
     fileName: 'unsigned-art.svg',
     name: 'Art with no credential',
@@ -139,15 +139,15 @@ app.innerHTML = `
         <div class="sample-heading"><span id="sample-title">Try a sample</span><small>Click one, or drag it into the box.</small></div>
         <div class="sample-list">
           <button class="sample-card" type="button" draggable="true" data-sample="signed">
-            <img src="/samples/signed-test.jpg" alt="" />
+            <img src="./samples/signed-test.jpg" alt="" />
             <span><strong>Signed photo</strong><small>Has a credential</small></span>
           </button>
           <button class="sample-card" type="button" draggable="true" data-sample="changed">
-            <img src="/samples/changed-sample.jpg" alt="" />
+            <img src="./samples/changed-sample.jpg" alt="" />
             <span><strong>Changed photo</strong><small>File was changed</small></span>
           </button>
           <button class="sample-card" type="button" draggable="true" data-sample="unsigned">
-            <img src="/samples/unsigned-sample.svg" alt="" />
+            <img src="./samples/unsigned-sample.svg" alt="" />
             <span><strong>Sample art</strong><small>No credential</small></span>
           </button>
         </div>
