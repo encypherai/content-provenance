@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Unsigned sample graphic</title>
+  <desc id="desc">A green and cream abstract image with no Content Credential.</desc>
+  <rect width="640" height="420" fill="#f4f0e8"/>
+  <circle cx="505" cy="95" r="150" fill="#bcead2"/>
+  <circle cx="505" cy="95" r="96" fill="none" stroke="#132d2b" stroke-width="3"/>
+  <path d="M0 322C126 251 242 253 346 322s196 69 294 0v98H0z" fill="#132d2b"/>
+  <path d="M0 365c133-68 241-58 341 0s197 64 299 0" fill="none" stroke="#f2673a" stroke-width="12"/>
+  <text x="44" y="76" fill="#132d2b" font-family="Georgia,serif" font-size="28">Sample art</text>
+  <text x="44" y="112" fill="#61706c" font-family="Arial,sans-serif" font-size="16">No Content Credential</text>
+</svg>
