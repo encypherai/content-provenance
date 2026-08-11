@@ -1,0 +1,22 @@
+{
+  "name": "@encypher/content-provenance",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "start": "serve -s dist -l $PORT"
+  },
+  "dependencies": {
+    "@encypherai/c2pa": "1.0.2",
+    "serve": "14.2.4"
+  },
+  "devDependencies": {
+    "vite": "7.1.1"
+  }
+}
