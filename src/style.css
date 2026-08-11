@@ -102,7 +102,7 @@ main { overflow: hidden; }
 .sample-heading > span { font-family: Georgia, "Times New Roman", serif; font-size: 23px; letter-spacing: -.03em; }
 .sample-heading small { color: var(--muted); font-size: 10px; line-height: 1.4; }
 .sample-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
-.sample-card { position: relative; min-width: 0; display: grid; grid-template-columns: 64px 1fr; align-items: center; gap: 11px; padding: 7px; border: 1px solid var(--line); background: var(--paper-light); cursor: grab; text-align: left; animation: sample-rise .5s cubic-bezier(.2,.8,.2,1) both; transition: transform .2s, border-color .2s, box-shadow .2s, opacity .2s; }
+.sample-card { position: relative; min-width: 0; display: grid; grid-template-columns: 64px 1fr; align-items: center; gap: 11px; padding: 7px; border: 1px solid var(--line); background: var(--paper-light); cursor: grab; text-align: left; animation: sample-rise .5s cubic-bezier(.2,.8,.2,1) backwards; transition: transform .2s, border-color .2s, box-shadow .2s, opacity .2s; }
 .sample-card:nth-child(2) { animation-delay: .08s; }
 .sample-card:nth-child(3) { animation-delay: .16s; }
 .sample-card:hover { z-index: 1; transform: translateY(-5px) rotate(-.5deg); border-color: var(--ink); box-shadow: 4px 5px 0 var(--mint); }
